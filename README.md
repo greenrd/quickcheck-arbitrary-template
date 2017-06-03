@@ -1,16 +1,16 @@
 # quickcheck-arbitrary-template
 
-Test.QuickCheck.TH.GeneratorsSpec
+Test.QuickCheck.TH.Generators
 
 contains one routine:
 ``` makeArbitrary ```
 
-Which builds, a generator that can be used to create an arbitrary instance.
+which builds a generator that can be used to create an arbitrary instance.
 
-It does not create the instance directly for you.  
+It does not create the instance directly for you.
 
-It supports creating sum types and record types
-each constructor may have at most 7 arguments.
+It supports creating sum types and record types.
+Each constructor may have at most 7 arguments.
 
 ## Installation
 
